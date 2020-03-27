@@ -18,6 +18,10 @@ The site is built using [Jekyll](https://jekyllrb.com), and would use [Netlify C
    ```sh
    cd website
    ```
+5. Install the necessary gems.
+   ```sh
+   bundle install
+   ```
 5. Start the development server.
    ```sh
    bundle exec jekyll serve
