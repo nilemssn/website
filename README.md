@@ -1,5 +1,7 @@
 # Nile MSSN Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f7278a8-4088-4a40-92f7-499a906cecf0/deploy-status)](https://app.netlify.com/sites/nilemssn/deploys)
+
 Here's the source code repo for the Nile MSSN website. (Work currently in progress).
 
 The site is built using [Jekyll](https://jekyllrb.com), and would use [Netlify CMS](https://www.netlifycms.org/) to manage its content.
