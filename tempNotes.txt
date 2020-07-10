@@ -1,0 +1,1 @@
+Maybe having those dependecy files jquery,google fonts etc downloaded within the repo is a good idea.
