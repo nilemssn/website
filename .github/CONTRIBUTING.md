@@ -61,7 +61,7 @@ function arraySum() {
   // ...
 }
 
-function DropdownButton() {
+function ButtonGroup() {
   return <div>{/* ... */}</div>
 }
 ```
@@ -75,7 +75,7 @@ function Arraysum() {
   // ...
 }
 
-function Dropdown_Button() {
+function Button_Group() {
   return <div>{/* ... */}</div>
 }
 ```

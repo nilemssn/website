@@ -86,4 +86,4 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## Contributing
 
-Check the [Guidelines for Conrtibuting file](./.github/CONTRIBUTING.md) for more info on getting started with the project.
+Check the [Guidelines for Contributing file](./.github/CONTRIBUTING.md) for more info on getting started with the project.
