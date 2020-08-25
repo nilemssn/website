@@ -30,7 +30,9 @@ TODO
 
 ## Style Guide
 
-TODO
+The style guide describes how your code, commit messages, etc. should be written. The goal of the style guide is to ensure readability and consistency. You should try to follow the guide as much as you can. Note however that the guidelines are not hard-and-fast rules.
+
+<!-- Style Guide for CSS is missing -->
 
 ### Code Style
 
@@ -275,7 +277,7 @@ function Button(props) {
 
 The files and folders of the Gatsby default starter (which this project is based on) are written `like-this` (i.e. lowercase letters and hyphens), so you should follow that.
 
-<!-- What's in the project? -->
+<!-- TODO: What's in the project? -->
 
 ### Commit messages
 
@@ -302,4 +304,4 @@ do
 git commit -m "Increase the margin-bottom on the main heading"
 ```
 
-<!-- Stuff about semantics and accessibility? -->
+<!-- TODO: Stuff about semantics and accessibility? -->
