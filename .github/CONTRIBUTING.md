@@ -258,6 +258,20 @@ The files and folders of the Gatsby default starter (which this project is based
 
 ### Commit messages
 
+A single-line commit message should suffice for commits with small changes. For example:
 
+```sh
+git commit -m "Rename abc.js to xyz.js"
+```
+
+Commits with larger changes may require longer messages. In such a case, you can do:
+
+```sh
+git commit -m "Create a Slider component
+
+Long text here describing why you created a Slider component
+and whatever else is important to know about it.
+"
+```
 
 <!-- Stuff about semantics and accessibility? -->
