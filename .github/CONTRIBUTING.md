@@ -47,9 +47,7 @@ function Hello() {
 
 You can [try Prettier out in its playground](https://prettier.io/playground/).
 
-<!-- Mention here about the precommit hook? -->
-
-<!-- Variable names -->
+<!-- TODO: Mention here about the precommit hook? -->
 
 There are some things that Prettier would not format however. For example, variable names. In JavaScript, write your identifiers (variable names, function names, etc.) in `camelCase`. React component names and class names should be in `PascalCase`.
 
@@ -84,7 +82,7 @@ function Dropdown_Button() {
 
 ### Comments
 
-<!-- Why comment? -->
+<!-- TODO: Why comment? -->
 
 When you write functions, React components etc., it is helpful to document them. Use [JSDoc](https://jsdoc.app/) comments for that. JSDoc is a tool for documenting JavaScript code. When documenting a function, for example, make sure you describe enough of it so that someone who hasn't looked at the function's implementation can use it with ease.
 
@@ -223,6 +221,20 @@ function Button(props) {
   // ...
 }
 ```
+
+<!--
+
+TODO
+
+Mention Tip. Editors + JSDoc
+
+More on JSDoc with React https://www.javascriptjanuary.com/blog/autocomplete-in-react-using-jsdoc
+
+Mention that the stuff here about JSDoc with React isn't specific to React
+
+Mention the tags and link to JSDoc's reference site
+
+-->
 
 ### Directory structure
 
