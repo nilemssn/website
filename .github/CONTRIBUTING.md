@@ -53,8 +53,6 @@ There are some things that Prettier would not format however. For example, varia
 
 So, write:
 ```js
-let name = "...";
-
 const newPosts = [];
 
 function arraySum() {
@@ -67,8 +65,6 @@ function ButtonGroup() {
 ```
 but not:
 ```js
-let Name = "...";
-
 const new_posts = [];
 
 function Arraysum() {
