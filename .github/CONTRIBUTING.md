@@ -65,7 +65,7 @@ You can [try Prettier out in its playground](https://prettier.io/playground/).
 
 <!-- TODO: Mention here about the precommit hook? -->
 
-There are some things that Prettier would not format however. For example, variable names. In JavaScript, write your identifiers (variable names, function names, etc.) in `camelCase`. React component names and class names should be in `PascalCase`.
+There are some things that Prettier would not fix however. For example, variable names. In JavaScript, write your identifiers (variable names, function names, etc.) in `camelCase`. React component names and class names should be in `PascalCase`.
 
 So, write:
 ```js
