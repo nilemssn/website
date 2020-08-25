@@ -2,7 +2,7 @@
 
 TODO
 
-<!-- Intro talk -->
+<!-- TODO: Intro talk -->
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ TODO
 
 TODO
 
-<!-- Basic HTML, CSS, JS, Git
+<!-- TODO: Basic HTML, CSS, JS, Git
 
 Bootstrap, React
 
@@ -32,7 +32,7 @@ TODO
 
 The style guide describes how your code, commit messages, etc. should be written. The goal of the style guide is to ensure readability and consistency. You should try to follow the guide as much as you can. Note however that the guidelines are not hard-and-fast rules.
 
-<!-- Style Guide for CSS is missing -->
+<!-- TODO: Style Guide for CSS is missing -->
 
 ### Code Style
 
@@ -100,8 +100,6 @@ Comments help everyone understand your code. Make sure to use them as much as yo
 // z is the sum of x and y
 const z = x + y
 ```
-
-<!-- How about the usual comments? Any need to mention them? -->
 
 When you write functions, React components etc., it is helpful to document them. Use [JSDoc](https://jsdoc.app/) comments for that. JSDoc is a tool for documenting JavaScript code. When documenting a function, for example, make sure you describe enough of it so that someone who hasn't looked at the function's implementation can use it with ease.
 
