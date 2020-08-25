@@ -11,8 +11,8 @@ TODO
 - [Style Guide](#style-guide)
   - [Code Style](#code-style)
   - [Comments](#comments)
-  - [Folder structure](#folder-structure)
-  - [Commit messages](#commit-messages)
+  - [Folder Structure](#folder-structure)
+  - [Commit Messages](#commit-messages)
 
 ## What to Know Before Getting Started
 
@@ -269,7 +269,7 @@ function Button(props) {
 }
 ```
 
-### Folder structure
+### Folder Structure
 
 #### How to name files and folders?
 
@@ -277,7 +277,7 @@ The files and folders of the Gatsby default starter (which this project is based
 
 <!-- TODO: What's in the project? -->
 
-### Commit messages
+### Commit Messages
 
 A single-line commit message should suffice for commits with small changes. For example:
 ```sh
