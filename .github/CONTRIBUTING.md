@@ -226,6 +226,8 @@ function Button(props) {
 
 TODO
 
+JSDoc isn't just for functions/classes.
+
 Mention Tip. Editors + JSDoc
 
 More on JSDoc with React https://www.javascriptjanuary.com/blog/autocomplete-in-react-using-jsdoc
