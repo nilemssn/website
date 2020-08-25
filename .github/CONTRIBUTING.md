@@ -94,6 +94,8 @@ function Button_Group() {
 
 <!-- TODO: Why comment? -->
 
+<!-- How about the usual comments? Any need to mention them? -->
+
 When you write functions, React components etc., it is helpful to document them. Use [JSDoc](https://jsdoc.app/) comments for that. JSDoc is a tool for documenting JavaScript code. When documenting a function, for example, make sure you describe enough of it so that someone who hasn't looked at the function's implementation can use it with ease.
 
 Now, how do you use JSDoc comments?
@@ -232,21 +234,35 @@ function Button(props) {
 }
 ```
 
-<!--
+#### Regular comments
 
-TODO
+It's important to note that JSDoc comments don't necessarily replace the usual JavaScript line comments (`//`). A rule of thumb is that you should use JSDoc comments for _interfaces_ and not _implementations_. Use the regular comments elsewhere.
 
-JSDoc isn't just for functions/classes.
+For example, to describe the internals of the `Button` component from above, you could do:
 
-Mention Tip. Editors + JSDoc
+```js
+/**
+ * ...
+ */
+function Button(props) {
+  const {
+    color = "primary",
+    outline,
+    size,
+    className = "",
+    ...rest
+  } = props;
 
-More on JSDoc with React https://www.javascriptjanuary.com/blog/autocomplete-in-react-using-jsdoc
+  // Create the button color class from the outline and color props.
+  const colorClass = `btn-${outline ? "outline-" : ""}${color}`
+  // Add the size suffix if the size is given
+  const sizeClass = size ? `btn-${size}` : ""
+  // Combine the button classes with the custom ones.
+  const classes = `${className} btn ${colorClass} ${sizeClass}`
 
-Mention that the stuff here about JSDoc with React isn't specific to React
-
-Mention the tags and link to JSDoc's reference site
-
--->
+  return <button className={classes} {...rest} />
+}
+```
 
 ### Folder structure
 
@@ -259,19 +275,26 @@ The files and folders of the Gatsby default starter (which this project is based
 ### Commit messages
 
 A single-line commit message should suffice for commits with small changes. For example:
-
 ```sh
 git commit -m "Rename abc.js to xyz.js"
 ```
 
 Commits with larger changes may require longer messages. In such a case, you can do:
-
 ```sh
 git commit -m "Create a Slider component
 
 Long text here describing why you created a Slider component
 and whatever else is important to know about it.
 "
+```
+
+In either case, keep the first line of the message _reasonably_ short. You can avoid some unnecessary pronouns. For example, instead of
+```sh
+git commit -m "I increased the margin-bottom on the main heading"
+```
+do
+```sh
+git commit -m "Increase the margin-bottom on the main heading"
 ```
 
 <!-- Stuff about semantics and accessibility? -->
