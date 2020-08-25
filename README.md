@@ -82,3 +82,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 9.  **`package-lock.json`** This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 10. **`README.md`**: This file :smile:! It's a text file containing useful reference information about this project.
+
+
+## Contributing
+
+Check the [Guidelines for Conrtibuting file](./.github/CONTRIBUTING.md) for more info on getting started with the project.
