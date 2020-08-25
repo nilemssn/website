@@ -1,5 +1,15 @@
 # Guidelines for Contributing
 
+## Table of Contents
+
+- [What to Know Before Getting Started](#what-to-know-before-getting-started)
+- [Workflow](#workflow)
+- [Style Guide](#style-guide)
+  - [Code Style](#code-style)
+  - [Comments](#comments)
+  - [Directory structure](#directory-structure)
+  - [Commit messages](#commit-messages)
+
 ## What to Know Before Getting Started
 
 TODO
@@ -241,3 +251,5 @@ TODO
 ### Commit messages
 
 TODO
+
+<!-- Stuff about semantics and accessibility? -->
