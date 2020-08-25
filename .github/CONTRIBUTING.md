@@ -92,7 +92,12 @@ function Button_Group() {
 
 ### Comments
 
-<!-- TODO: Why comment? -->
+Comments help everyone understand your code. Make sure to use them as much as you can. Try to write in clear, simple language. If you find yourself writing lots of comments to explain a small piece of code, consider rewriting the code. Also, avoid redundant comments like:
+
+```js
+// z is the sum of x and y
+const z = x + y
+```
 
 <!-- How about the usual comments? Any need to mention them? -->
 
@@ -236,7 +241,7 @@ function Button(props) {
 
 #### Regular comments
 
-It's important to note that JSDoc comments don't necessarily replace the usual JavaScript line comments (`//`). A rule of thumb is that you should use JSDoc comments for _interfaces_ and not _implementations_. Use the regular comments elsewhere.
+It's important to note that JSDoc comments don't necessarily replace the usual JavaScript line comments (`//`). You should use JSDoc comments for interfaces and _not_ implementations. Use the regular comments elsewhere.
 
 For example, to describe the internals of the `Button` component from above, you could do:
 
