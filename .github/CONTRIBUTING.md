@@ -1,5 +1,9 @@
 # Guidelines for Contributing
 
+TODO
+
+<!-- Intro talk -->
+
 ## Table of Contents
 
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
@@ -7,7 +11,7 @@
 - [Style Guide](#style-guide)
   - [Code Style](#code-style)
   - [Comments](#comments)
-  - [Directory structure](#directory-structure)
+  - [Folder structure](#folder-structure)
   - [Commit messages](#commit-messages)
 
 ## What to Know Before Getting Started
@@ -244,12 +248,16 @@ Mention the tags and link to JSDoc's reference site
 
 -->
 
-### Directory structure
+### Folder structure
 
-TODO
+#### How to name files and folders?
+
+The files and folders of the Gatsby default starter (which this project is based on) are written `like-this` (i.e. lowercase letters and hyphens), so you should follow that.
+
+<!-- What's in the project? -->
 
 ### Commit messages
 
-TODO
+
 
 <!-- Stuff about semantics and accessibility? -->
