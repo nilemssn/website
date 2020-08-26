@@ -1,15 +1,12 @@
-<!-- <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1> -->
-
 # Nile MSSN Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7f7278a8-4088-4a40-92f7-499a906cecf0/deploy-status)](https://app.netlify.com/sites/nilemssn/deploys)
+
+<!-- TODO: More badges, just for fun 😄 -->
+
+<!-- TODO: Where to put Website URL? -->
+
+<!-- TODO: Description, tech stack (little) -->
 
 (Cloned from [Gatsby's default starter](https://github.com/gatsbyjs/gatsby-starter-default).)
 
@@ -43,7 +40,7 @@
 
     The site should now be running at http://localhost:8000. Open the repository in your code editor and start editing the files. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
+<!-- ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
@@ -78,8 +75,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 9.  **`package-lock.json`** This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 10. **`README.md`**: This file :smile:! It's a text file containing useful reference information about this project.
-
+ -->
 
 ## Contributing
 
-Check the [Guidelines for Contributing file](./.github/CONTRIBUTING.md) for more info on getting started with the project.
+Check the [Guidelines for Contributing](./.github/CONTRIBUTING.md) for more info on getting started with the project.

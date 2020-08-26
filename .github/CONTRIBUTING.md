@@ -19,7 +19,13 @@ TODO
 
 TODO
 
-<!-- TODO: Basic HTML, CSS, JS, Terminal
+<!--
+
+Mention the tech stack of the project first.
+
+Then mention what you need to know and assumptions
+
+ TODO: Basic HTML, CSS, JS, Terminal
 
 Bootstrap, React
 
