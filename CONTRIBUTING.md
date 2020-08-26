@@ -6,6 +6,7 @@ TODO
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
 - [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
 - [Workflow](#workflow)
@@ -21,9 +22,9 @@ TODO
 
 <!--
 
-Mention the tech stack of the project first.
+Mention the tech stack of the project first (including Netlify).
 
-Then mention what you need to know and assumptions
+Then mention what you need to know and assumptions made in this document.
 
  TODO: Basic HTML, CSS, JS, Terminal
 
@@ -33,15 +34,15 @@ Gatsby, Git ... -->
 
 ## Set up the Project on Your Computer
 
-1. Install Node.js. It comes with a JavaScript package manager called [NPM](https://www.npmjs.com/). (Also, install Git if you haven't already.)
+1. Install [Node.js](https://nodejs.org/). It comes with a JavaScript package manager called [NPM](https://www.npmjs.com/). (Also, install [Git](https://git-scm.com/) if you haven't already.)
 
-2. Open your terminal and type the following command to install the Gatsby <abbr title="Command-Line Interface">CLI</abbr>. <!-- What's the Gatsby CLI? -->
+2. Open your terminal and navigate to a folder where you would like to download the repository. Next, type the following command to install the Gatsby <abbr title="Command-Line Interface">CLI</abbr>. The Gatsby CLI lets you develop Gatsby sites.<!-- What's the Gatsby CLI? -->
 
    ```shell
-   npm install ...
+   npm install -g gatsby-cli
    ```
 
-3. Run the following command to get a local copy of this repository.
+3. Run the following Git command to get a local copy of this repository.
 
    ```shell
    git clone https://github.com/nilemssn/website.git
@@ -59,13 +60,37 @@ Gatsby, Git ... -->
    gatsby develop
    ```
 
-6. The site should now be running at http://localhost:8000! You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying data. Learn more about using this tool in the [Gatsby GraphiQL tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql).
+6. The site should now be running at http://localhost:8000. You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying data. Learn more about using this tool in the [Gatsby GraphiQL tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql).
 
 7. Open the "website" folder in your code editor of choice and start editing the files. Save your changes and the browser will update in real time!
 
 ## Workflow
 
 TODO
+
+<!--
+
+(Use this to explain working with Git and GitHub)
+
+Look for an issue, or create one
+
+Pull the master
+
+Checkout a new branch
+
+Work on the issue
+
+Stage changes and commit
+
+Work more, commit more
+
+Push the new branch
+
+Create PR on GitHub (and all the fancy stuff) (Mention Skip CI, and Netlify)
+
+Merge PR
+
+ -->
 
 ## Style Guide
 
@@ -169,7 +194,7 @@ function sum(numbers) {
 ```
 Anyone reading this should understand what the function does, without seeing its body.
 
-You may go further by describing the parameters and return value using JSDoc tags:
+If you wish, you may go further by describing the parameters and return value using JSDoc tags:
 ```js
 /**
  * Return the sum of an array of numbers.
