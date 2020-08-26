@@ -90,6 +90,8 @@ Create PR on GitHub (and all the fancy stuff) (Mention Skip CI, and Netlify)
 
 Merge PR
 
+(Documenting changes to package.json)
+
  -->
 
 ## Style Guide
@@ -162,7 +164,7 @@ function Button_Group() {
 
 ### Comments
 
-Comments help everyone understand your code. Make sure to use them as much as you can. Try to write in clear, simple language. If you find yourself writing lots of comments to explain a small piece of code, consider rewriting the code. Also, avoid redundant comments like:
+Comments help everyone understand your code. Make sure to use them where appropriate. Try to write in clear, simple language. If you find yourself writing lots of comments to explain a small piece of code, consider rewriting the code. Also, avoid redundant comments like:
 
 ```js
 // z is the sum of x and y
@@ -194,7 +196,7 @@ function sum(numbers) {
 ```
 Anyone reading this should understand what the function does, without seeing its body.
 
-If you wish, you may go further by describing the parameters and return value using JSDoc tags:
+Though unnecessary for this function, you may go further by describing the parameters and return value using JSDoc tags:
 ```js
 /**
  * Return the sum of an array of numbers.
@@ -361,7 +363,7 @@ and whatever else is important to know about it.
 "
 ```
 
-In either case, keep the first line of the message _reasonably_ short. You can avoid some unnecessary pronouns. For example, instead of
+In either case, keep the first line of the message reasonably short. You can avoid some unnecessary pronouns. For example, instead of
 ```sh
 git commit -m "I increased the margin-bottom on the main heading"
 ```
