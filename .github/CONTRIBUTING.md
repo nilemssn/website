@@ -57,28 +57,6 @@ Gatsby, Git ... -->
 
 7. Open the "website" folder in your code editor of choice and start editing the files. Save your changes and the browser will update in real time!
 
-<!--
-
-Install Node.js. It comes with NPM, a JavaScript package manager. You will use NPM to ...
-
-Install Gatsby CLI. What is the Gatsby CLI?
-
-Open terminal, clone this repository.
-
-cd into repo, install dependencies. Warning! This may be > 100MB
-
-Start developing.
-
-    Start up the development server.
-
-    ```shell
-    gatsby develop
-    ```
-
-Open the source code and start editing!
-
- -->
-
 ## Workflow
 
 TODO
