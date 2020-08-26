@@ -7,7 +7,7 @@ TODO
 ## Table of Contents
 
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
-- [Setting up the Project on Your Computer](#setting-up-the-project-on-your-computer)
+- [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
 - [Workflow](#workflow)
 - [Style Guide](#style-guide)
   - [Code Style](#code-style)
@@ -31,7 +31,7 @@ Bootstrap, React
 
 Gatsby, Git ... -->
 
-## Setting up the Project on Your Computer
+## Set up the Project on Your Computer
 
 1. Install Node.js. It comes with a JavaScript package manager called [NPM](https://www.npmjs.com/). (Also, install Git if you haven't already.)
 
