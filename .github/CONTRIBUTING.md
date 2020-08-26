@@ -7,6 +7,7 @@ TODO
 ## Table of Contents
 
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
+- [Setting up the Project on Your Computer](#setting-up-the-project-on-your-computer)
 - [Workflow](#workflow)
 - [Style Guide](#style-guide)
   - [Code Style](#code-style)
@@ -18,11 +19,65 @@ TODO
 
 TODO
 
-<!-- TODO: Basic HTML, CSS, JS, Git
+<!-- TODO: Basic HTML, CSS, JS, Terminal
 
 Bootstrap, React
 
-Gatsby, ... -->
+Gatsby, Git ... -->
+
+## Setting up the Project on Your Computer
+
+1. Install Node.js. It comes with a JavaScript package manager called [NPM](https://www.npmjs.com/). (Also, install Git if you haven't already.)
+
+2. Open your terminal and type the following command to install the Gatsby <abbr title="Command-Line Interface">CLI</abbr>. <!-- What's the Gatsby CLI? -->
+
+   ```shell
+   npm install ...
+   ```
+
+3. Run the following command to get a local copy of this repository.
+
+   ```shell
+   git clone https://github.com/nilemssn/website.git
+   ```
+
+4. You should now find a new "website" folder. Navigate into it and install its dependencies. Note that this might take a while and use over 100MB of data.
+
+   ```shell
+   cd website/ && npm install
+   ```
+
+5. Start the development server with the following command.
+
+   ```shell
+   gatsby develop
+   ```
+
+6. The site should now be running at http://localhost:8000! You'll also see a second link: http://localhost:8000/___graphql. This is a tool you can use to experiment with querying data. Learn more about using this tool in the [Gatsby GraphiQL tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql).
+
+7. Open the "website" folder in your code editor of choice and start editing the files. Save your changes and the browser will update in real time!
+
+<!--
+
+Install Node.js. It comes with NPM, a JavaScript package manager. You will use NPM to ...
+
+Install Gatsby CLI. What is the Gatsby CLI?
+
+Open terminal, clone this repository.
+
+cd into repo, install dependencies. Warning! This may be > 100MB
+
+Start developing.
+
+    Start up the development server.
+
+    ```shell
+    gatsby develop
+    ```
+
+Open the source code and start editing!
+
+ -->
 
 ## Workflow
 
