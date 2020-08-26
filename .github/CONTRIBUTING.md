@@ -69,6 +69,8 @@ There are some things that Prettier would not fix however. For example, variable
 
 So, write:
 ```js
+let name = "...";
+
 const newPosts = [];
 
 function arraySum() {
@@ -81,6 +83,8 @@ function ButtonGroup() {
 ```
 but not:
 ```js
+let Name = "...";
+
 const new_posts = [];
 
 function Arraysum() {
@@ -109,18 +113,18 @@ Now, how do you use JSDoc comments?
 
 Let's say you wrote a function that returns the sum of an array of numbers:
 ```js
-function arraySum(array) {
-  let sum = 0
-  for (const num of array) {
-    sum += num
+function sum(numbers) {
+  let result = 0
+  for (const num of numbers) {
+    result += num
   }
-  return sum
+  return result
 }
 ```
 You can easily document this like so:
 ```js
 /** Return the sum of an array of numbers. */
-function arraySum(array) {
+function sum(numbers) {
   // ...
 }
 ```
@@ -130,10 +134,10 @@ You may go further by describing the parameters and return value using JSDoc tag
 ```js
 /**
  * Return the sum of an array of numbers.
- * @param {number[]} array
+ * @param {number[]} numbers
  * @return {number}
  */
-function arraySum(array) {
+function sum(numbers) {
   // ...
 }
 ```
