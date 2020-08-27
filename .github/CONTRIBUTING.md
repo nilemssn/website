@@ -3,8 +3,7 @@
 Bismillah ar-Rahman ar-Raheem.
 
 The following guidelines should help you get started contributing to the Nile MSSN website.To keep this repo organised and make contibuting easier here are a set of helpful links and information along with guidlines that will hopefully make help this happen.
-
-These guidelines may be subject to change.
+These guidelines area work in progress and may be subject to change.
 
 ## Table of Contents
 
