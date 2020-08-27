@@ -1,8 +1,8 @@
 # Guidelines for Contributing
 
-TODO
+Bismillah ar-Rahman ar-Raheem.
 
-<!-- TODO: Intro talk -->
+The following guidelines should help you get started contributing to the Nile MSSN website. This document is supposed to be a living one and thus may change with the project.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ Gatsby, Git ... -->
 
 1. Install [Node.js](https://nodejs.org/). It comes with a JavaScript package manager called [NPM](https://www.npmjs.com/). (Also, install [Git](https://git-scm.com/) if you haven't already.)
 
-2. Open your terminal and navigate to a folder where you would like to download the repository. Next, type the following command to install the Gatsby <abbr title="Command-Line Interface">CLI</abbr>. The Gatsby CLI lets you develop Gatsby sites.<!-- What's the Gatsby CLI? -->
+2. Open your terminal and navigate to a folder where you would like to download the repository. Next, type the following command to install the Gatsby <abbr title="Command-Line Interface">CLI</abbr>. The Gatsby CLI lets you develop Gatsby sites.
 
    ```shell
    npm install -g gatsby-cli
