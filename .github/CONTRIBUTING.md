@@ -2,7 +2,7 @@
 
 Bismillah ar-Rahman ar-Raheem.
 
-The following guidelines should help you get started contributing to the Nile MSSN website. This document is supposed to be a living one and thus may change with the project.
+The following guidelines should help you get started contributing to the Nile MSSN website. The guidelines may change with the project.
 
 ## Table of Contents
 
