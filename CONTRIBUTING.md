@@ -131,11 +131,11 @@ You can [try Prettier out in its playground](https://prettier.io/playground/).
 
 <!-- TODO: Mention here about the precommit hook? -->
 
-There are some things that Prettier would not fix however. For example, variable names. In JavaScript, write your identifiers (variable names, function names, etc.) in `camelCase`. React component names and class names should be in `PascalCase`.
+There are some things that Prettier would not fix however. For example, variable names. In JavaScript, write your identifiers (variable names, function names, etc.) in `camelCase`. React component names and class names should be in `PascalCase`. It goes without saying that identifiers should describe what they identify.
 
 So, write:
 ```js
-let name = "...";
+let name = "Musty";
 
 const newPosts = [];
 
@@ -149,14 +149,18 @@ function ButtonGroup() {
 ```
 but not:
 ```js
-let Name = "...";
+// What does "x" identify?
+let x = "Musty";
 
+// No underscore should be in the middle of variable name
 const new_posts = [];
 
+// Function name should not start with capital letter
 function Arraysum() {
   // ...
 }
 
+// React Component name should not contain underscore
 function Button_Group() {
   return <div>{/* ... */}</div>
 }
