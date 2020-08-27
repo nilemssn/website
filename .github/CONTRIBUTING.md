@@ -2,18 +2,26 @@
 
 Bismillah ar-Rahman ar-Raheem.
 
-The following guidelines should help you get started contributing to the Nile MSSN website. The guidelines may change with the project.
+The following guidelines should help you get started contributing to the Nile MSSN website.To keep this repo organised and make contibuting easier here are a set of helpful links and information along with guidlines that will hopefully make help this happen.
+
+These guidelines may be subject to change.
 
 ## Table of Contents
 
-- [What to Know Before Getting Started](#what-to-know-before-getting-started)
-- [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
-- [Workflow](#workflow)
-- [Style Guide](#style-guide)
-  - [Code Style](#code-style)
-  - [Comments](#comments)
-  - [Folder Structure](#folder-structure)
-  - [Commit Messages](#commit-messages)
+- [Guidelines for Contributing](#guidelines-for-contributing)
+  - [Table of Contents](#table-of-contents)
+  - [What to Know Before Getting Started](#what-to-know-before-getting-started)
+  - [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
+  - [Workflow](#workflow)
+  - [Style Guide](#style-guide)
+    - [Code Style](#code-style)
+    - [Comments](#comments)
+      - [Simple JSDoc example](#simple-jsdoc-example)
+      - [Documenting a React component](#documenting-a-react-component)
+      - [Regular comments](#regular-comments)
+    - [Folder Structure](#folder-structure)
+      - [How to name files and folders?](#how-to-name-files-and-folders)
+    - [Commit Messages](#commit-messages)
 
 ## What to Know Before Getting Started
 
