@@ -6,7 +6,6 @@ The following guidelines should help you get started contributing to the Nile MS
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
 - [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
 - [Workflow](#workflow)
