@@ -7,20 +7,15 @@ These guidelines area work in progress and may be subject to change.
 
 ## Table of Contents
 
-- [Guidelines for Contributing](#guidelines-for-contributing)
-  - [Table of Contents](#table-of-contents)
-  - [What to Know Before Getting Started](#what-to-know-before-getting-started)
-  - [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
-  - [Workflow](#workflow)
-  - [Style Guide](#style-guide)
-    - [Code Style](#code-style)
-    - [Comments](#comments)
-      - [Simple JSDoc example](#simple-jsdoc-example)
-      - [Documenting a React component](#documenting-a-react-component)
-      - [Regular comments](#regular-comments)
-    - [Folder Structure](#folder-structure)
-      - [How to name files and folders?](#how-to-name-files-and-folders)
-    - [Commit Messages](#commit-messages)
+- [What to Know Before Getting Started](#what-to-know-before-getting-started)
+- [Set up the Project on Your Computer](#set-up-the-project-on-your-computer)
+- [Workflow](#workflow)
+- [Style Guide](#style-guide)
+  - [Code Style](#code-style)
+  - [Comments](#comments)
+  - [Folder Structure](#folder-structure)
+  - [Commit Messages](#commit-messages)
+  - [Miscellaneous](#miscellaneous)
 
 ## What to Know Before Getting Started
 
@@ -382,4 +377,6 @@ do
 git commit -m "Increase the margin-bottom on the main heading"
 ```
 
-<!-- TODO: Stuff about semantics and accessibility? -->
+### Miscellaneous
+
+<!-- Use Gatsby `Link` for internal urls -->
