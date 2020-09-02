@@ -2,7 +2,7 @@
 
 **Summary**
 
-<!-- Please describe the changes this PR introduces. If you installed any new packages, mention them and and why you installed them. -->
+<!-- Please describe the changes this PR introduces. If you also installed any new packages, mention them and and why you installed them. -->
 
 
 
@@ -16,4 +16,4 @@
 
 
 
-<!-- Finally, don't forget to apply the appropriate labels to this PR. -->
+<!-- Finally, don't forget to apply the appropriate labels to this PR. See https://docs.github.com/en/github/managing-your-work-on-github/applying-labels-to-issues-and-pull-requests on applying labels -->
