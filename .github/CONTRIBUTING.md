@@ -201,7 +201,7 @@ function sum(numbers) {
 ```
 Anyone reading this should understand what the function does, without seeing its body.
 
-Though unnecessary for this function, you may go further by describing the parameters and return value using JSDoc tags:
+Though unnecessary for this function, you may go further by describing the parameters and return value using [JSDoc tags](https://jsdoc.app/#block-tags):
 ```js
 /**
  * Return the sum of an array of numbers.
@@ -379,4 +379,32 @@ git commit -m "Increase the margin-bottom on the main heading"
 
 ### Miscellaneous
 
-<!-- Use Gatsby `Link` for internal urls -->
+#### Links
+
+[Gatsby recommends using its `Link` component for links to pages within a site](https://www.gatsbyjs.com/docs/gatsby-link/). The usual HTML `<a>` tag should be used for external links. For example:
+
+```js
+// Internal link
+<Link to="/about/">...</Link>
+
+// External link
+<a href="https://twitter.com/nilemssn">...</a>
+```
+
+You need to import the `Link` component to use it:
+
+```js
+import { Link } from "gatsby"
+```
+
+Certain React Bootstrap components render as links. For example, the following renders an `<a>` element styled as a button:
+
+```js
+<Button href="/about/">...</Button>
+```
+
+The React Bootstrap components have an `as` prop that you can use to specify which React component or HTML element to render as. So, the example above with Gatsby's `Link` becomes:
+
+```js
+<Button as={Link} to="/about/">...</Button>
+```
