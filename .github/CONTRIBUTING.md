@@ -31,7 +31,11 @@ Then mention what you need to know and assumptions made in this document.
 
 Bootstrap, React
 
-Gatsby, Git ... -->
+Gatsby, Git ...
+
+Add Git, GitHub guide here perhaps
+
+-->
 
 ## Set up the Project on Your Computer
 
@@ -67,11 +71,9 @@ Gatsby, Git ... -->
 
 ## Workflow
 
-<!-- Talk about GitHub and "remote" here. It's role -->
-
 A typical workflow might be something like the following.
 
-1. Look for [an open issue](https://github.com/nilemssn/website/issues) on the GitHub repository, or [create one](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue). You can use issues to discuss changes to the site with the team.
+1. Look for [an open issue](https://github.com/nilemssn/website/issues) on the GitHub repository (aka the "remote"), or [create one](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue). You can use issues to discuss changes to the site with the team.
 
 2. Open your terminal, navigate to the local repository and pull in changes from the `master` branch. The `master` branch is the default branch and contains the source code for the website ready to be deployed. If you're not already in the `master` branch, run the following to switch to it:
    ```shell
