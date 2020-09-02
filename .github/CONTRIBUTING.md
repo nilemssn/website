@@ -67,7 +67,57 @@ Gatsby, Git ... -->
 
 ## Workflow
 
-TODO
+<!-- Talk about GitHub and "remote" here. It's role -->
+
+A typical workflow might be something like the following.
+
+1. Look for [an open issue](https://github.com/nilemssn/website/issues) on the GitHub repository, or [create one](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue). You can use issues to discuss changes to the site with the team.
+
+2. Open your terminal, navigate to the local repository and pull in changes from the `master` branch. The `master` branch is the default branch and contains the source code for the website ready to be deployed. If you're not already in the `master` branch, run the following to switch to it:
+   ```shell
+   git checkout master
+   ```
+   Then run the following to update your `master` branch with the remote's.
+   ```shell
+   git pull
+   ```
+
+3. Before you start working on the code, you need to create a branch from the `master` branch. You can think of a branch as an environment where you can work separately, and later merge with other branches. The code below would create a new branch `layout` and switch to it. You can give your branch a name that identifies what you want to work on.
+   ```shell
+   git checkout -b layout
+   ```
+
+4. Now you can start working on the site in your editor! As you work, you should regularly tell Git to "save" your changes. To do this, first, you'll have to "add" your changes:
+   ```shell
+   git add .
+   ```
+   (Note the space between add and the dot.) This informs Git of your new changes.
+   Next, you'll commit your changes to create a "checkpoint". Your commits should have a message describing the changes you made:
+   ```shell
+   git commit -m "Make the navbar responsive"
+   ```
+   See the [commit messages style guide section](#commit-messages) on writing good commit messages. How often should you commit? It's up to you! A simple rule is to [commit whenever you create something that you're satisfied with](https://softwareengineering.stackexchange.com/a/74893), or [something you would like to go back to](https://softwareengineering.stackexchange.com/a/83842). Remember, a commit is like a checkpoint.
+
+5. When you're done working on your branch, push it to the remote. If you're pushing a new branch (in this case `layout`) to the remote for the first time, do
+   ```shell
+   git push -u origin layout
+   ```
+   If it's not the first time you're pushing the branch to the remote, then this suffices:
+   ```shell
+   git push
+   ```
+
+6. Share your changes with the team! Go to the GitHub website and [create a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request). This allows you to discuss your changes with the team and request reviews. When your changes are approved, [merge your pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request#merging-a-pull-request-on-github).
+
+7. You can return to your terminal and delete your branch. Switch to a different branch:
+   ```shell
+   git checkout master
+   ```
+   Then delete the branch you created earlier (`layout` in this case):
+   ```shell
+   git branch -d layout
+   ```
+   (Note that the remote branch would be deleted automatically when you merged the pull request.) That's it!
 
 <!--
 
