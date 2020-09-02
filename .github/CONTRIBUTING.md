@@ -33,7 +33,7 @@ Bootstrap, React
 
 Gatsby, Git ...
 
-Add Git, GitHub guide here perhaps
+Add Git Handbook (https://guides.github.com/introduction/git-handbook/), GitHub guide here perhaps
 
 -->
 
