@@ -112,7 +112,7 @@ A typical workflow might be something like the following.
 
 6. Share your changes with the team! Go to the GitHub website and [create a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request). This allows you to discuss your changes with the team and request reviews. When your changes are approved, [merge your pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request#merging-a-pull-request-on-github).
 
-7. You can return to your terminal and delete your branch. Switch to a different branch:
+7. You can return to your terminal and now delete your branch. Switch to a different branch:
    ```shell
    git checkout master
    ```
