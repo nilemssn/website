@@ -407,9 +407,6 @@ You can check [Gatsby's documentation on project structure](https://www.gatsbyjs
 
 The files and folders in a typical Gatsby site are written `like-this` (i.e. lowercase letters and hyphens), so you should follow that.
 
-
-<!-- TODO: What's in the project? -->
-
 ### Commit Messages
 
 A single-line commit message should suffice for commits with small changes. For example:
