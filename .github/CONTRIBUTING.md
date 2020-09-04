@@ -124,32 +124,6 @@ A typical workflow might be something like the following.
    ```
    (Note that the remote branch would be deleted automatically when you merged the pull request.) That's it!
 
-<!--
-
-(Use this to explain working with Git and GitHub)
-
-Look for an issue, or create one
-
-Pull the master
-
-Checkout a new branch
-
-Work on the issue
-
-Stage changes and commit
-
-Work more, commit more
-
-Push the new branch
-
-Create PR on GitHub (and all the fancy stuff) (Mention Skip CI, and Netlify)
-
-Merge PR
-
-(Documenting changes to package.json)
-
- -->
-
 ## Style Guide
 
 The style guide describes how your code, commit messages, etc. should be written. The goal of the style guide is to ensure readability and consistency. You should try to follow the guide as much as you can. Note however that the guidelines are not hard-and-fast rules.
