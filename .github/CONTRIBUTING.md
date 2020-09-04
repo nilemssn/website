@@ -13,7 +13,7 @@ These guidelines area work in progress and may be subject to change.
 - [Style Guide](#style-guide)
   - [Code Style](#code-style)
   - [Comments](#comments)
-  - [Folder Structure](#folder-structure)
+  - [Project Structure](#project-structure)
   - [Commit Messages](#commit-messages)
   - [Miscellaneous](#miscellaneous)
 
@@ -23,15 +23,17 @@ TODO
 
 <!--
 
+TODO later in the project. This section is primarily meant for future maintainers.
+
 Mention the tech stack of the project first (including Netlify).
 
 Then mention what you need to know and assumptions made in this document.
 
- TODO: Basic HTML, CSS, JS, Terminal
+Basic HTML, CSS, JS, Terminal
 
-Bootstrap, React
+Bootstrap (4?), React
 
-Gatsby, Git ...
+Gatsby, Git
 
 Add Git Handbook (https://guides.github.com/introduction/git-handbook/), GitHub guide here perhaps
 
@@ -397,11 +399,14 @@ function Button(props) {
 }
 ```
 
-### Folder Structure
+### Project Structure
+
+You can check [Gatsby's documentation on project structure](https://www.gatsbyjs.com/docs/gatsby-project-structure/) for an overview of the files and folders in this project.
 
 #### How to name files and folders?
 
-The files and folders of the Gatsby default starter (which this project is based on) are written `like-this` (i.e. lowercase letters and hyphens), so you should follow that.
+The files and folders in a typical Gatsby site are written `like-this` (i.e. lowercase letters and hyphens), so you should follow that.
+
 
 <!-- TODO: What's in the project? -->
 
