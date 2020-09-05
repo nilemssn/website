@@ -5,7 +5,9 @@ Bismillah ar-Rahman ar-Raheem.
 The following guidelines should help you get started contributing to the Nile MSSN website.To keep this repo organised and make contibuting easier here are a set of helpful links and information along with guidlines that will hopefully make help this happen.
 These guidelines area work in progress and may be subject to change.
 
-<!-- Mention this document is for maintainers! -->
+<!-- -->
+
+This document is for the current and (in sha Allah) future maintainers of the Nile MSSN website. The guidelines here should help you get started working on the website and keeping it organized.
 
 ## Table of Contents
 
@@ -21,29 +23,21 @@ These guidelines area work in progress and may be subject to change.
 
 ## What to Know Before Getting Started
 
-TODO
-
-* [Gatsby](https://www.gatsbyjs.com/) (hence [React](https://reactjs.org/))
-* [React Bootstrap](https://react-bootstrap.github.io/) (hence [Bootstrap](https://getbootstrap.com/))
-* [Netlify](https://www.netlify.com/) for hosting
-
 <!--
+TODO: Add this later in the project.
 
-TODO later in the project. This section is primarily meant for future maintainers.
+The website is a [Gatsby](https://www.gatsbyjs.com) site. It uses [React Bootstrap](https://react-bootstrap.github.io) as its component library and is hosted on [Netlify](https://www.netlify.com).
 
-Mention the tech stack of the project first (including Netlify).
+Sanity goes somewhere?
 
-Then mention what you need to know and assumptions made in this document.
-
-Basic HTML, CSS, JS, Terminal
-
-Bootstrap (4?), React
-
-Gatsby, Git
-
-Add Git Handbook (https://guides.github.com/introduction/git-handbook/), GitHub guide here perhaps
-
+Thus,...
 -->
+
+You'll need some basic knowledge of [React](https://reactjs.org) and [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/), and you should be able to run simple commands in your terminal.
+
+If you're not familiar with [Git](https://git-scm.com/), it's a tool for tracking changes on projects. The next two sections talk a little about Git (and [GitHub](https://guides.github.com/activities/hello-world/)) to get you working with them. You can learn more about Git and GitHub in the [Git Handbook](https://guides.github.com/introduction/git-handbook/).
+
+[The Gatsby website has a nice step-by-step tutorial](https://www.gatsbyjs.com/tutorial/) that's <q cite="https://www.gatsbyjs.com/tutorial/">intended to be as accessible as possible to people without much web development experience (yet!) — no need to be an expert</q>. It's a great place to start learning.
 
 ## Set up the Project on Your Computer
 
