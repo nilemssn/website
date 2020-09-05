@@ -5,6 +5,8 @@ Bismillah ar-Rahman ar-Raheem.
 The following guidelines should help you get started contributing to the Nile MSSN website.To keep this repo organised and make contibuting easier here are a set of helpful links and information along with guidlines that will hopefully make help this happen.
 These guidelines area work in progress and may be subject to change.
 
+<!-- Mention this document is for maintainers! -->
+
 ## Table of Contents
 
 - [What to Know Before Getting Started](#what-to-know-before-getting-started)
@@ -20,6 +22,10 @@ These guidelines area work in progress and may be subject to change.
 ## What to Know Before Getting Started
 
 TODO
+
+* [Gatsby](https://www.gatsbyjs.com/) (hence [React](https://reactjs.org/))
+* [React Bootstrap](https://react-bootstrap.github.io/) (hence [Bootstrap](https://getbootstrap.com/))
+* [Netlify](https://www.netlify.com/) for hosting
 
 <!--
 
@@ -81,7 +87,7 @@ A typical workflow might be something like the following.
    ```shell
    git checkout master
    ```
-   Then run the following to update your `master` branch with the remote's.
+   Then run the following to update your `master` branch with the remote's. <!-- This might trigger an NPM install (with a postmerger hook)? -->
    ```shell
    git pull
    ```
