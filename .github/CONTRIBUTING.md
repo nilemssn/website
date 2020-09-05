@@ -426,14 +426,16 @@ You need to import the `Link` component to use it:
 import { Link } from "gatsby"
 ```
 
-Certain React Bootstrap components render as links. For example, the following renders an `<a>` element styled as a button:
+Using Gatsby's `Link` may not be so straightforward, however, with some React Boostrap components that render as links. For example, React Bootstrap's `Nav.Link` component for links in a nav:
 
 ```js
-<Button href="/about/">...</Button>
+<Nav.Link href="/about/">About</Nav.Link>
 ```
 
-The React Bootstrap components have an `as` prop that you can use to specify which React component or HTML element to render as. So, the example above with Gatsby's `Link` becomes:
+It renders as a regular `<a>` element by default. The good thing is React Bootstrap components typically have an `as` prop that allow you specify which HTML element or React component to render as. So, the example above with Gatsby's `Link` becomes:
 
 ```js
-<Button as={Link} to="/about/">...</Button>
+<Nav.Link as={Link} to="/about/">About</Nav.Link>
 ```
+
+Notice the use of the `to` prop of Gatsby's `Link` and not `href` of `Nav.Link`.
