@@ -105,7 +105,7 @@ A typical workflow might be something like the following.
    ```shell
    git push
    ```
-   (Note: You don't have to de done with your work before pushing.)
+   (Note: You don't have to be done with your work before pushing.)
 
 6. Share your changes with the team! Go to the GitHub website and [create a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request). This allows you to discuss your changes with the team and request reviews. When your changes are approved, [merge your pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request#merging-a-pull-request-on-github).
 
